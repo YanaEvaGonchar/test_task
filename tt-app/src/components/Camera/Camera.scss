@@ -1,0 +1,22 @@
+@import '../../utils/';
+
+.camera {
+    padding-top: 125%;
+    background-color: #333;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+
+    &__notification {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $elementsColor;
+        border-radius: 30px;
+        border: 3px dashed $backgroundColor;
+        padding: 15px 45px;
+        text-align: center;
+        white-space: nowrap;
+    }
+}

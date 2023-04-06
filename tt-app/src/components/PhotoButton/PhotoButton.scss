@@ -1,0 +1,30 @@
+@import '../../utils/';
+
+.photoButton {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__button {
+        background-color: $elementsColor;
+        width: 85px;
+        height: 85px;
+        padding: 15px;
+        border-radius: 100%;
+        border: none;
+    }
+
+    &__icon {
+        background-image: url('../../icons/make_photo_icon.svg');
+        background-size: contain;
+        height: 100%;
+    }
+
+    &__counter {
+        color: $elementsColor;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+}

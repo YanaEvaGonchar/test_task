@@ -1,7 +1,7 @@
 # Test task for Areyes Studio
 
 ## Demo
-
+[DEMO LINK]( https://yanaevagonchar.github.io/test_task/)
 
 ## Technology Used:
 - **React**: A JavaScript library for building user interfaces.
@@ -17,17 +17,13 @@ $ nvm use 14
 ```
 2. Clone the repository to your local machine, open terminal (GitBash for Windows users) and clone repo with command bellow:
 ```
-$ git clone 
+$ git clone https://github.com/YanaEvaGonchar/test_task.git
 ```
-3. Open project in terminal (or GitBash for Windows users):
-```
-$ code test_task
-```
-4. Set up project and install necessary packages in the code-editor you use:
+3. Set up project and install necessary packages in the code-editor you use:
 ```
 $ npm install
 ```
-5. Open the project in browser:
+4. Open the project in browser:
 ```
 $ npm start
 ```

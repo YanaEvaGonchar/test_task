@@ -8,6 +8,7 @@
 - **SCSS**: A CSS preprocessor that adds features like variables, mixins, and nesting to CSS.
 - **BEM**: A naming convention for CSS classes that makes code more modular and easier to read.
 - **JavaScript**: The programming language used to build the frontend logic.
+- **HTML**: The standard markup language for creating Web pages.
 
 ## Project Setup
 

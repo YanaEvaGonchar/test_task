@@ -1,7 +1,7 @@
 # Test task for Areyes Studio
 
 ## Demo
-[DEMO LINK](https://YanaEvaGonchar.github.io/test_task/)
+[DEMO LINK](https://YanaEvaGonchar.github.io/test_task/tt-app)
 
 ## Technology Used:
 - React: A JavaScript library for building user interfaces.

@@ -1,1 +1,68 @@
 @import '../../utils/';
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+    &__button {
+        border: none;
+        transition: transform $transitionSettings, 
+            background-color $transitionSettings;
+        
+        &:hover {
+            transform: scale(1.05);
+            background-color: $elementsColor;
+        }
+    }
+
+    &__gallery {
+        width: 60px;
+        height: 60px;
+        padding: 8px;
+        background-color: $nonActiveColor;
+
+        &--icon {
+            background-image: url('../../icons/add_photo_icon.svg');
+            background-size: contain;
+            height: 100%;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        width: 60px;
+    }
+
+    &__download {
+        height: 40px;
+        width: 40px;
+        padding: 6px;
+        margin-left: 20px;
+        background-color: $nonActiveColor;
+        
+        &--icon {
+            background-image: url('../../icons/download_photo_icon.svg');
+            background-size: contain;
+            height: 100%;
+        }
+    }
+
+    &__info {
+        height: 40px;
+        width: 40px;
+        padding: 6px;
+        background-color: $elementsColor;
+
+        &--icon {
+            background-image: url('../../icons/info_photo_icon.svg');
+            background-size: contain;
+            height: 100%;
+        }
+    }
+}

@@ -11,9 +11,14 @@
         background-color: $elementsColor;
         width: 85px;
         height: 85px;
-        padding: 15px;
-        border-radius: 100%;
+        padding: 12px;
         border: none;
+
+        transition: transform $transitionSettings;
+    
+        &:hover {
+        transform: scale(1.05);
+        }
     }
 
     &__icon {

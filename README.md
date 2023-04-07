@@ -9,7 +9,9 @@
 - **BEM**: A naming convention for CSS classes that makes code more modular and easier to read.
 - **JavaScript**: The programming language used to build the frontend logic.
 
-## Setup
+## Project Setup
+
+To run this project on your local machine, you need:
 
 1. Use 14 version of node.js:
 ```

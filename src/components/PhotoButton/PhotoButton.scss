@@ -19,6 +19,10 @@
         &:hover {
         transform: scale(1.05);
         }
+
+        &--disabled{
+            background-color: $nonActiveColor;
+        }
     }
 
     &__icon {
@@ -31,5 +35,9 @@
         color: $elementsColor;
         margin-bottom: 5px;
         font-size: 14px;
+
+        &--disabled {
+            color: $nonActiveColor;
+        }
     }
 }

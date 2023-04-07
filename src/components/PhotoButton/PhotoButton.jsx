@@ -27,8 +27,11 @@ export function PhotoButton({showNotification}) {
 
   return (
     <div className='photoButton__container'>
-        <div className='photoButton__counter'>{count}/3</div>
-        <button className='photoButton__button' disabled={isLimit || showNotification} onClick={handleClick}>
+        <div className={showNotification ? 'photoButton__counter photoButton__counter--disabled' : 'photoButton__counter'}>{count}/3</div>
+        <button 
+          className={showNotification ? 'photoButton__button photoButton__button--disabled' : 'photoButton__button'}
+          disabled={isLimit || showNotification} 
+          onClick={handleClick}>
             <div className='photoButton__icon'></div>
         </button>
 

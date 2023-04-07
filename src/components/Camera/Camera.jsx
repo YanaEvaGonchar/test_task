@@ -12,7 +12,7 @@ export const Camera = ({showNotification, handleNotificationClose}) => {
     <div 
       style={{height: `calc(${size.width}px * 1.25)`}} 
       ref={divRef} 
-      className={showNotification ? 'camera camera__blurred' : 'camera'}
+      className='camera'
     >
       {showNotification && (
         <div className='camera__container'>
